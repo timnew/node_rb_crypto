@@ -57,5 +57,5 @@ db2h decrypted
 
 escaped = new Buffer(decrypted, 'binary').toString('base64')
 console.log escaped
-escaped = encodeURI(escaped)
+escaped = encodeURIComponent(escaped)
 console.log escaped
