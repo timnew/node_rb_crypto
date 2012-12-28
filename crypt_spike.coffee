@@ -1,3 +1,5 @@
+#!/usr/bin/env coffee
+
 crypto = require('crypto')
 
 b2h = (s) ->

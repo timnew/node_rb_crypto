@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'openssl'
 require 'base64'
 require 'json'
